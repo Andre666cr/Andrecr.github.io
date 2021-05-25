@@ -121,6 +121,7 @@ header {
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
+  
 }
 .education p {
   width: 60%;
@@ -176,5 +177,8 @@ footer {
   }
   .contact-list a {
     padding: 5px;
+  }
+  .education {
+    background-image: url(../images/111925-orange-blurred-background-vector.jpg)
   }
 }
