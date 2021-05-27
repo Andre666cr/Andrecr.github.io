@@ -6,12 +6,24 @@
     <title>Andres Bolaños Estrada, Customer Services Specialist + Front-end Developer</title>
     <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script  src="../Andre666cr.github.io/javascript/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <main>
       <!-- ***************  ABOUT / PROFILE  **************** -->
       <header>
-        <div class="content-wrap">
+        <div class="topnav" id="myTopnav">
+          <a href="#home" class="active">Home</a>
+          <a href="#work-experience">Work Experience</a>
+          <a href="#education">Education</a>
+          <a href="#wall">The Wall</a>
+          <a href="#contact">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <div class="content-wrap" id="home">
           <h1>Andres Bolaños Estrada</h1>
           <h2>Customer Service Specialist and Front-end Developer</h2>
 
@@ -24,7 +36,7 @@
       
 
       <!-- ****************  WORK EXPERIENCE  ******************** -->
-      <section class="work-experience">
+      <section class="work-experience" id="work-experience">
         <div class="content-wrap item-details divider">
           <h2>Work Experience</h2>
           <p>See my complete work history on <a href="http://linkedin.com/in/andres-bolaños-67601a1ba">LinkedIn</a>.</p>
@@ -77,7 +89,7 @@
       </section>
 
       <!-- *************  EDUCATION & CERTIFICATIONS *********** -->
-      <section class="education">
+      <section class="education" id="education">
         <div class="content-wrap item-details">
           <h2>Education</h2>
 
@@ -109,7 +121,7 @@
         </div>
       </section>
       <!-- ************ PROJECTS / PORTFOLIO  ************** -->
-      <section class="projects">
+      <section class="projects" id="wall">
         <div class="content-wrap divider">
           <h2>The Wall</h2>
           <p>Here you can find some of the best mentions on tripadvisor that I accumulated over the years working as a customer services specialist.</p>
@@ -138,7 +150,7 @@
       </section>
 
       <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
-      <footer>
+      <footer id="contact">
         <div class="content-wrap">
           <h2>Let's Keep in Touch!</h2>
 
